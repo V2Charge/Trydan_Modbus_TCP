@@ -1,0 +1,49 @@
+#Loads the default setup
+default_config: null
+
+# Example configuration.yaml entry
+v2c:
+  host: "ip"
+
+input_text:
+  my_input_text:
+    name: "Escribe el número:"
+    initial: ""
+    max: 20
+
+input_number:
+  my_input_number:
+    max: 32
+    min: 6
+    name: "Intensity"
+    mode: slider
+    unit_of_measurement: A
+
+input_boolean:
+  lock_switch:
+    name: "Lock state:"
+  pause_switch:
+    name: "Pause state:"
+  
+input_select:
+  my_list:
+    name: My List
+    options:
+      - "Program:"
+      - "Dynamic:"
+      - "Payment:"
+      - "OCPP:"
+      - "Min Intensity:"
+      - "Max Intensity:"
+      - "Pause Dynamic:"
+      - "Dynamic Power Mode:"
+      - "Contracted Power:"
+      
+#Text to speech
+tts:
+  - platform: google_translate
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+#sensor: !include sensors.yaml
