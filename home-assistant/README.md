@@ -69,3 +69,6 @@ Este sería el resultado del panel para mandar valores, WRITE HOLDING REGISTER :
 
 Como quedarían las entidades de lectura, READ HOLDING REGISTER :
 <br>![sensor](https://user-images.githubusercontent.com/121380348/231108758-9c03df67-590e-45b2-9a42-8bb06e5f89e4.png) </br>
+
+
+//Importante: Al leer valores tarda unos 30 segundos en leerlos, según tu internet o potencia de ordenador.
