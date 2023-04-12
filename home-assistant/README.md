@@ -22,7 +22,7 @@ Además, hay que configurar el archivo 'configuration.yaml': <br>
 - Para configurar este archivo, solo tenéis que copiar el propio archivo configuration.yaml, también lo que podéis hacer es pegar el siguiente contenido:
 - Donde pone 'host' hay que poner la ip del Trydan, el trydan tiene que estar conectado al mismo internet que tu ordenador.
 
-```yaml
+```
 v2c:
   host: "XXXXXXXX"
 
