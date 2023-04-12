@@ -15,6 +15,8 @@ Al abrirla pordás ver que hay un conjunto de ficheros por defecto, para instala
 
 <br>![ficheros](https://user-images.githubusercontent.com/121380348/231093952-1cc5099c-d1a2-4777-877c-3e5b39b30327.png) </br>
 
+Quedaría tal que así: <br>
+<br>![fin](https://user-images.githubusercontent.com/121380348/231437454-9e4620e3-e5d4-4444-b12a-712d73c0f3aa.png) </br>
 
 
 
